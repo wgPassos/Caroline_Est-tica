@@ -41,7 +41,7 @@ body {
 .hero nav li {
     display: inline-block; /* colocar as listas lado a lado */
     list-style: none;
-    
+    border-radius: 5px;
     
     border: 1px solid white;
 } 
@@ -67,7 +67,7 @@ body {
     display: inline-block;
     padding: 12px;
     border-bottom: 1px solid white;
-
+    border-radius: 5px;
     letter-spacing: 4px;
 }
 
@@ -87,6 +87,7 @@ main {
     float: left;
     text-align: center;
     width: 32%;
+    /* border-radius: 5px; */
     box-sizing: border-box;
 }
 
@@ -97,6 +98,7 @@ main {
 .card img {
     width: 100%;
     display: block;
+    border-radius: 5px 5px 0 0;
 }
 
 .card p {
@@ -104,6 +106,8 @@ main {
     color: rgb(223, 116, 74);
     text-transform: uppercase;
     margin: 0;
+    border-bottom: 3px solid white;
+    border-radius: 0 0 5px 5px;
     padding: 15px 40px;
 }
 article h2 {
@@ -112,6 +116,7 @@ article h2 {
     padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 5px;
     box-sizing: border-box;
     color: rgb(223, 116, 74);
 }
@@ -132,15 +137,37 @@ footer {
 #ref {
     font-size: 18px;
 }
+.whatsfixed {
+    position: fixed;
+    bottom:  40px;
+    right: 55px;
+    /* width: 10px; */
+    /* width: 50px; */
+}
+
+ .whats {
+    width: 100px;
+} 
 
 @media screen and (max-width: 700px) {
     .card {
         float: none;
         margin: auto;    
         width: 80%;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         box-sizing: border-box;
     }
+    .whatsfixed {
+        position: fixed;
+        bottom:  30px;
+        right: 30px;
+        /* width: 10px; */
+        /* width: 50px; */
+    }
+    
+     .whats {
+        width: 90px;
+    } 
 }
 
 @media screen and (max-width: 500px) {
@@ -177,4 +204,17 @@ footer {
         font-size: 46px;
         text-shadow: 3px 3px 5px rgb(254, 220, 210); /* Efeito sombreado*/
         letter-spacing: 8px;
+}
+
+.whatsfixed {
+    position: fixed;
+    bottom:  25px;
+    right: 25px;
+    /* width: 10px; */
+    /* width: 50px; */
+}
+
+ .whats {
+    width: 70px;
+} 
 }
