@@ -328,16 +328,20 @@ article  {
     display: inline-block;
     /* float: left; */
     width: 40%;
-    height: 300px;
+    /* height: 300px; */
     text-align: center;
-    background-color: red
+    background-color: red;
+    position: relative;
 }
 
 #link {
-    line-height: 80px;
+    /* line-height: 80px; */
+    display: inline-block;
     background-color: rgba(254, 220, 210, 0.2);
     padding: 0;
     margin: 0;
+    position: absolute;
+    top: 10px;
 }
 
 #link a {
@@ -347,6 +351,7 @@ article  {
 
 #local iframe {
     /* float: none; */
+    /* padding-top: 100px; */
     
 }
 
