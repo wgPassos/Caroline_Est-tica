@@ -15,9 +15,10 @@
     <header class="hero">
         <nav>
             <ul>
-                <li><a href="index.html">INÍCIO</a></li>
-                <li><a href="sobre.html">QUEM SOMOS</a></li>
-                <li><a href="contato.html">CONTATO</a></li>
+                <li><a id="index-nav" href="index.html">INÍCIO</a></li>
+                <li><a id="services-nav" href="#servicos">SERVIÇOS</a></li>
+                <li><a id="about-nav" href="#about">QUEM SOMOS</a></li>
+                <li><a id="contact-nav" href="#contact">CONTATO</a></li>
             </ul>
         </nav>
         <div class="hero-content">
@@ -26,8 +27,18 @@
         </div>
     </header>
 
+    <section id="about">
+        <h2>Quem somos</h2>
+        <p>Somos uma clínica especializada em <strong>Massoterapia</strong> e <strong>Estética</strong>, localizada em
+            <strong>Joinville</strong>. Estamos preparados para dar solução ao cliente, entendendo suas necessidades,
+            e indicando o procedimento que mais se adequa a situação de cada pessoa.</p>
+        <p>Nosso objetivo é sastisfazer o cliente que busca uma condição melhor para sua <strong>saúde</strong>,
+            <strong>beleza</strong> e <strong>bem estar</strong>.</p>
+    </section>
+
     <main>
-        <section class="content-section">
+        <section id="servicos" class="content-section">
+            <h2>Nossos serviços</h2>
             <div class="card card-1">
                 <img src="img/quick300.jpg" alt="">
                 <p>Quick massage</p>
@@ -37,6 +48,18 @@
                 <p>Massagem modeladora</p>
             </div>
             <div class="card card-3">
+                <img src="img/modeladora300.jpg" alt="">
+                <p>Drenagem linfática</p>
+            </div>
+            <div class="card card-4">
+                <img src="img/modeladora300.jpg" alt="">
+                <p>Massagem relaxante</p>
+            </div>
+            <div class="card card-5">
+                <img src="img/terapeutica300.jpeg" alt="">
+                <p>Terapêutica da coluna</p>
+            </div>
+            <div class="card card-6">
                 <img src="img/terapeutica300.jpeg" alt="">
                 <p>Terapêutica da coluna</p>
             </div>
@@ -44,19 +67,20 @@
         <section class="content-section">
             <article>
                 <h2>Sua saúde e beleza merecem o melhor!</h2>
-                <div id="ref" class="ref">
+                <div class="ref">
                     <p>"Dezenas de estudos vincularam a massagem a benefícios reais, incluindo redução da dor, da
                         tensão,
                         da
-                        depressão e melhora na fertilidade". (VEJA, 2019)
+                        depressão e melhora na fertilidade." (VEJA, 2019)
                 </div>
 
-                <small class="ref">VIDALE, Giulia. Os benefícios físicos e psicológicos da massagem.
-                    <b>Veja</b>, 2019.
+                <small class="ref2">VIDALE, Giulia. Os benefícios físicos e psicológicos da massagem.
+                    <strong>Veja</strong>, 2019.
                     Leia
                     mais em:
+                    <br><br>
                     <a href="https://veja.abril.com.br/saude/os-beneficios-fisicos-e-psicologicos-da-massagem/"
-                        target="_blank">https://veja.abril.com.br/saude/os-beneficios-fisicos-e-psicologicos-da-massagem/</a>
+                        target="_blank">Olhe o estudo sobre massagem</a>
                 </small></p>
             </article>
         </section>
@@ -65,6 +89,27 @@
                     class="whats" src="./img/whatsorigin.png" alt="Logotipo Whatsapp"></a>
         </section>
     </main>
+
+    <article id="contact">
+        <h2>Contato</h2>
+        <p>Veja onde você pode nos encontrar:</p>
+
+        <section id="local">
+            <div id="link">
+                <a href="https://www.instagram.com/" target="_blank"><img id="img1" src="img/siminsta.png"
+                        alt="logo do instagram"> @carolineestetica</a>
+                <a href="https://api.whatsapp.com/send?phone=5547988524311&text=Queria uma informação sobre os serviços"
+                    target="_blank"><img id="img2" src="img/whatsorigin.png" alt="logo do whatsapp"> (47)98910-2945</a>
+            </div>
+        </section>
+        <section id="local">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12418.941966690418!2d-48.837151073559646!3d-26.363135857756543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb0885bbb4771%3A0x67510c934954d364!2sBoehmerwald%2C%20Joinville%20-%20SC!5e1!3m2!1spt-BR!2sbr!4v1607454714182!5m2!1spt-BR!2sbr"
+                width="" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </section>
+
+    </article>
 
     <footer>
         <p>Copyright &copy;2020</p>
