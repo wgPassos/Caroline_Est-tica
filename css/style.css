@@ -187,6 +187,7 @@ main {
     text-align: center;
     width: 32%;
     box-sizing: border-box;
+    padding-bottom: 15px;
 }
 
 .card-1, .card-2, .card-4, .card-5 {
@@ -210,7 +211,7 @@ main {
     margin: 0;
     border-bottom: 3px solid white;
     border-radius: 0 0 5px 5px;
-    padding: 15px 40px;
+    padding: 20px 40px;
 }
 
 article h2 {
@@ -288,7 +289,7 @@ article  {
     background-color: rgba(254, 220, 210, 0.8);
     border-bottom: 3px solid white;
     border-radius: 5px;
-}
+}  
 
 #contact p {
     color: rgb(223, 116, 74);
@@ -354,6 +355,7 @@ footer {
     width: 83%;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     color: rgb(151, 216, 210);
 }
 
