@@ -49,6 +49,11 @@ body {
     border: 1px solid white;
 } 
 
+.hero nav li:hover {
+    transform: translateY(20%);
+    transition: 1s;
+}
+
 .hero nav a {
     background: rgba(254, 220, 210, 0.5); /* Rred, Ggreen, Bblue, Alpha= opacidade vai de 0 até 1*/
     display: block; /* link transformado em block, p/ se encaixar nas lis*/
@@ -65,43 +70,7 @@ body {
     transition: 0.5s;
 
     color: white;
-    
 }
-
-#index-nav:hover {
-    background: rgba(254, 220, 210, 0.8);
-    transition: 0.3s;
-    padding: 18px;
-    color: white;
-    
-}
-
-#services-nav:hover {
-    background: rgba(254, 220, 210, 0.8);
-    transition: 0.3s;
-    padding: 18px;
-    color: white;
-    
-}
-
-#about-nav:hover {
-    background: rgba(254, 220, 210, 0.8);
-    transition: 0.3s;
-    padding: 18px;
-    color: white;
-    
-}
-
-#contact-nav:hover {
-    background: rgba(254, 220, 210, 0.8);
-    transition: 0.3s;
-    padding: 18px;
-    color: white;
-    
-}
-
-
-
 
 .hero nav li:hover {
     border-color: rgba(254, 220, 210, 0.8);
@@ -117,7 +86,7 @@ body {
     letter-spacing: 4px;
 }
 
-#about h2 {
+.subtitle {
     text-align: center;
     text-transform: uppercase;
     color: rgb(223, 116, 74);
@@ -132,7 +101,7 @@ body {
     border-radius: 5px;
 }
 
-#about {
+.about {
     background-color: rgba(151, 216, 210, 0.5);
     color: rgb(223, 116, 74);
     width: 85%;
@@ -141,11 +110,12 @@ body {
     padding-bottom: 20px;
 }
 
-#about h2 {
+.about h2 {
     text-align: center;
     padding-top: 10px;
 }
-#about p{
+
+.about p{
     font-size: 20px;
     margin-block-start: 0px;
     margin-block-end: 0px;
@@ -165,21 +135,6 @@ main {
     padding: 10px;
     margin-top: 15px;
     overflow: auto;
-}
-
-#servicos h2 {
-    text-align: center;
-    text-transform: uppercase;
-    color: rgb(223, 116, 74);
-    line-height: 40px;
-    letter-spacing: 3px;
-    width: 60%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgba(254, 220, 210, 0.8);
-    border-bottom: 3px solid white;
-    border-radius: 5px;
 }
 
 .card {
@@ -214,21 +169,6 @@ main {
     padding: 20px 40px;
 }
 
-article h2 {
-    background-color: rgba(254, 220, 210, 0.8);
-    border-bottom: 3px solid white;
-    width: 80%;
-    margin: auto;
-    margin-top: 5px;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    text-align: center;
-    color: rgb(223, 116, 74);
-}
-
 .ref {
     font-size: 20px;
     margin-block-start: 0px;
@@ -247,49 +187,31 @@ article h2 {
 
 .ref2 a {
     text-decoration: none;
-    
+    display: inline-block;
     border-radius: 5px;
     padding: 10px;
     border: 1px solid white;
     background-color: white;
     color: rgb(151, 216, 210);
+    font-size: ;
 }
 
 .ref2 a:hover {
     background-color: rgba(254, 220, 210, 0.8);
-    font-size: 20px;
+    transform: scale(1.4, 1.2);
     transition: 0.8s;
     color: rgb(223, 116, 74);;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: solid white;
 }
 
 article  {
-    width: 80%;
+    width: 83.5%;
     margin: auto;
     text-align: center;
 }
-
-#contact {
-    background-color: rgba(151, 216, 210, 0.5);
-    width: 85%;
-    margin: auto;
-    margin-top: 15px;
-}
-
-
-#contact h2 {
-    text-align: center;
-    text-transform: uppercase;
-    color: rgb(223, 116, 74);
-    line-height: 40px;
-    letter-spacing: 3px;
-    width: 60%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgba(254, 220, 210, 0.8);
-    border-bottom: 3px solid white;
-    border-radius: 5px;
-}  
 
 #contact p {
     color: rgb(223, 116, 74);
@@ -324,7 +246,7 @@ article  {
 }
 
 #whats-contact:hover {
-    transform: translate(-21%, -115%);
+    transform: translate(-18%, -115%);
     transition: 1s;
 }
 
@@ -370,7 +292,8 @@ footer {
 } 
 
 .whats:hover {
-    width: 100px;
+    /* width: 100px; */
+    transform: scale(1.4);
     transition: 0.8s;
 }
 
