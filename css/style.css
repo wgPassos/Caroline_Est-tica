@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
+    padding: 0;
 }
 
 .hero {
@@ -36,7 +37,7 @@ body {
 
 .hero nav ul {
     text-align: right; 
-    margin: 20px 50px 0 0 ;
+    margin: 20px 50px 0 0px ;
     /* position: relative; */
 }
 
@@ -45,12 +46,13 @@ body {
     display: inline-block; /* colocar as listas lado a lado */
     list-style: none;
     border-radius: 5px;
+    margin-left: 5px;;
     /* position: relative; */
     border: 1px solid white;
 } 
 
 .hero nav li:hover {
-    transform: translateY(20%);
+    transform: scale(1.1) translateY(20%);
     transition: 1s;
 }
 
@@ -90,7 +92,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: rgb(223, 116, 74);
-    line-height: 40px;
+    font-size: 1.1em;
+    line-height: 2em;
     letter-spacing: 3px;
     width: 60%;
     margin: auto;
@@ -116,7 +119,7 @@ body {
 }
 
 .about p{
-    font-size: 20px;
+    font-size: 1em;
     margin-block-start: 0px;
     margin-block-end: 0px;
     width: 80%;
@@ -147,6 +150,7 @@ main {
 
 .card-1, .card-2, .card-4, .card-5 {
     margin-right: 2%;
+    /* box-sizing:  */
 }
 
 .card-4, .card-5, .card-6 {
@@ -163,10 +167,12 @@ main {
     background-color: rgba(254, 220, 210, 0.8);
     color: rgb(223, 116, 74);
     text-transform: uppercase;
+    font-size: 1rem;
     margin: 0;
     border-bottom: 3px solid white;
     border-radius: 0 0 5px 5px;
     padding: 20px 40px;
+    box-sizing: border-box;
 }
 
 .ref {
@@ -199,7 +205,7 @@ main {
 .ref2 a:hover {
     background-color: rgba(254, 220, 210, 0.8);
     transform: scale(1.4, 1.2);
-    transition: 0.8s;
+    transition: 1.0s;
     color: rgb(223, 116, 74);;
     border-left: none;
     border-top: none;
@@ -237,7 +243,7 @@ article  {
     color: rgb(223, 116, 74);
     min-width: 220px;
     font-size: 20px;
-    transform: translate(-25%, -115%);
+    transform: translate(-27%, -115%);
 }
 
 #insta-contact:hover {
@@ -293,7 +299,7 @@ footer {
 
 .whats:hover {
     /* width: 100px; */
-    transform: scale(1.4);
+    transform: scale(1.4) rotate(360deg);
     transition: 0.8s;
 }
 
@@ -307,6 +313,12 @@ footer {
         text-align: center;
         line-height: 20px;
         color: rgb(223, 116, 74);
+    }
+
+    article  {
+        width: 82.5%;
+        margin: auto;
+        text-align: center;
     }
 
     #local {
@@ -397,31 +409,42 @@ footer {
         letter-spacing: 8px;
     }
 
-.whatsfixed {
-    position: fixed;
-    bottom:  25px;
-    right: 25px;
+    .about p {
+        text-align: left;
     }
 
- .whats {
-    width: 70px;
+    article  {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .whatsfixed {
+        position: fixed;
+        bottom:  25px;
+        right: 25px;
+    }
+
+    .whats {
+        width: 70px;
+        align-items: left;
     } 
 
-#local {
-    width: 70%;
-    }
+    #local {
+        width: 70%;
+        }
 
-#link {
-    display: inline-block;
-    width: 180px;
-    padding-top: 0px;
-    }
+    #link {
+        display: inline-block;
+        width: 200px;
+        padding-top: 0px;
+        }
 
-iframe {
-    display: inline-block;
-    padding: 30px 0px 10px 0px;
-    transform: none;
-    width: 100%;
-    
+    iframe {
+        display: inline-block;
+        padding: 30px 0px 10px 0px;
+        transform: none;
+        width: 100%;
+        height: 80%;
+        }
     }
-}
