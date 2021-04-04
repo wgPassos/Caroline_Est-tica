@@ -1,5 +1,5 @@
 body {
-    font-family: 'myFirstFont', arial, sans-serif;
+    font-family: 'Baloo 2', arial, sans-serif;
     background-color: rgba(254, 220, 210, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,6 +12,11 @@ body {
 @font-face {
     font-family: myFirstFont;
     src: url(./fonts/Girassol-Regular.ttf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(./fonts/Galada-Regular.ttf);
 }
 
 .hero {
@@ -62,7 +67,7 @@ body {
 .hero nav a {
     background: rgba(254, 220, 210, 0.5); /* Rred, Ggreen, Bblue, Alpha= opacidade vai de 0 até 1*/
     display: block; /* link transformado em block, p/ se encaixar nas lis*/
-    padding: 15px;
+    padding: 10px;
     color: rgb(223, 116, 74);
     text-decoration: none;
     text-transform: uppercase;
@@ -78,6 +83,7 @@ body {
     padding: 12px;
     border-bottom: 1px solid white;
     border-radius: 5px;
+    font-family: 'mySecondFont';
     letter-spacing: 4px;
 }
 
@@ -113,6 +119,7 @@ body {
 
 .about p{
     font-size: 1em;
+    font-family: 'mySecondFont';
     margin-block-start: 0px;
     margin-block-end: 0px;
     width: 80%;
@@ -158,8 +165,10 @@ main {
 .card p {
     background-color: rgba(254, 220, 210, 0.8);
     color: rgb(223, 116, 74);
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 1rem;
+    font-family: 'mySecondFont';
+    letter-spacing: 6px;
     margin: 0;
     border-bottom: 3px solid white;
     border-radius: 0 0 5px 5px;
@@ -400,13 +409,13 @@ footer {
     } 
     
     .hero nav a {
-        background: rgba(254, 220, 210, 0.5); /* Rred, Ggreen, Bblue, Alpha= opacidade vai de 0 até 1*/
+        background: rgba(254, 220, 210, 0.8); /* Rred, Ggreen, Bblue, Alpha= opacidade vai de 0 até 1*/
         display: block; /* link transformado em block, p/ se encaixar nas lis*/
-        padding: 15px;
+        padding: 10px;
         color: rgb(223, 116, 74);
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 2px; /* Espaçamento da caixa / alongamento */
     }
     .hero-content {
@@ -417,7 +426,7 @@ footer {
     
     .hero-content h1 {
         text-transform: uppercase; /* Letras maiúsculas*/
-        font-size: 46px;
+        font-size: 40px;
         text-shadow: 3px 3px 5px rgb(254, 220, 210); /* Efeito sombreado*/
         letter-spacing: 8px;
     }
