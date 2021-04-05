@@ -11,12 +11,12 @@ body {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(./fonts/Girassol-Regular.ttf);
+    src: url(/fonts/Girassol-Regular.ttf);
 }
 
 @font-face {
     font-family: mySecondFont;
-    src: url(./fonts/Galada-Regular.ttf);
+    src: url(/fonts/Galada-Regular.ttf);
 }
 
 .hero {
@@ -38,10 +38,18 @@ body {
     margin-top: 100px;
 }
 
+.hero-content img {
+    width: 150px;
+    margin-bottom: 0;
+    padding: 0;
+    padding-block-start: 0;
+}
+
 .hero-content h1 {
     text-transform: uppercase; /* Letras maiúsculas*/
     font-size: 46px;
-    text-shadow: 3px 3px 5px rgb(254, 220, 210); /* Efeito sombreado*/
+    margin-block-start: 1px;
+    text-shadow: 3px 3px 3px white; /* Efeito sombreado*/
     letter-spacing: 8px;
 }
 
@@ -58,7 +66,6 @@ body {
     list-style: none;
     border-radius: 5px;
     margin-left: 5px;;
-    /* position: relative; */
     border: 1px solid white;
 } 
 
@@ -80,7 +87,7 @@ body {
 .hero-content p {
     background-color: rgba(254, 220, 210, 0.5);
     display: inline-block;
-    padding: 12px;
+    padding: 6px;
     border-bottom: 1px solid white;
     border-radius: 5px;
     font-family: 'mySecondFont';
@@ -124,6 +131,7 @@ body {
     margin-block-end: 0px;
     width: 80%;
     margin: auto;
+    letter-spacing: 1px;
     text-align: center;
     line-height: 24px;
 }
@@ -178,11 +186,13 @@ main {
 
 .ref {
     font-size: 20px;
+    font-family: 'mySecondFont';
     margin-block-start: 0px;
     margin-block-end: 0px;
     width: 80%;
     margin: auto;
     text-align: center;
+    letter-spacing: 2px;
     line-height: 24px;
     color: rgb(223, 116, 74);
 }
@@ -214,6 +224,7 @@ article  {
     color: rgb(223, 116, 74);
     font-size: 20px;
     letter-spacing: 2px;
+    font-family: 'mySecondFont';
 }
 
 #local {
@@ -384,6 +395,11 @@ footer {
         margin-bottom: 5px;
         box-sizing: border-box;
     }
+
+    .hero-content p {
+        margin-block-start: 0px;
+    }
+
     .whatsfixed {
         position: fixed;
         bottom:  30px;
@@ -395,7 +411,7 @@ footer {
     } 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 510px) {
     .hero nav ul {
         margin: 20px 50px 0 0 ;
     }
@@ -421,15 +437,17 @@ footer {
     .hero-content {
         text-align: center;
         color: rgb(223, 116, 74);
-        margin-top: 15%;
+        margin-top: 14%;
     }
     
     .hero-content h1 {
         text-transform: uppercase; /* Letras maiúsculas*/
         font-size: 40px;
+        line-height: 32px;
         text-shadow: 3px 3px 5px rgb(254, 220, 210); /* Efeito sombreado*/
         letter-spacing: 8px;
     }
+
 
     .about p {
         text-align: left;
