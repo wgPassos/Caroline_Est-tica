@@ -273,12 +273,19 @@ footer {
     background-color: rgb(223, 116, 74);
     text-align: center;
     align-items: center;
-    padding: 1vw;
-    width: 83%;
+    padding: 1px;
+    width: 85%;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     color: rgb(151, 216, 210);
+}
+
+.footer-copyright {
+    margin-block-end: 3px;
+}
+.footer-copy {
+    margin-block-start: 0px;
 }
 
 .whatsfixed {
