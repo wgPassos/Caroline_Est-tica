@@ -1,5 +1,5 @@
 body {
-    font-family: 'Baloo 2', arial, sans-serif;
+    font-family: 'myThirdFont', arial, sans-serif;
     background-color: rgba(254, 220, 210, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,6 +17,11 @@ body {
 @font-face {
     font-family: mySecondFont;
     src: url(/fonts/Galada-Regular.ttf);
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url(/fonts/Baloo2-Bold.ttf);
 }
 
 .hero {
@@ -48,6 +53,7 @@ body {
 .hero-content h1 {
     text-transform: uppercase; /* Letras maiúsculas*/
     font-size: 46px;
+    font-family: 'myThirdFont';
     margin-block-start: 1px;
     text-shadow: 3px 3px 3px white; /* Efeito sombreado*/
     letter-spacing: 8px;
