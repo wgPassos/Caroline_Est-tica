@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Galada&display=swap');
+
 body {
-    font-family: 'myThirdFont', arial, sans-serif;
+    font-family: 'Baloo 2' , arial, sans-serif;
     background-color: rgba(254, 220, 210, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,7 +70,6 @@ body {
     /* position: relative; */
 }
 
-
 .hero nav li {
     display: inline-block; /* colocar as listas lado a lado */
     list-style: none;
@@ -76,8 +77,6 @@ body {
     margin-left: 5px;;
     border: 1px solid white;
 } 
-
-
 
 .hero nav a {
     background: rgba(254, 220, 210, 0.5); /* Rred, Ggreen, Bblue, Alpha= opacidade vai de 0 até 1*/
@@ -98,7 +97,7 @@ body {
     padding: 6px;
     border-bottom: 1px solid white;
     border-radius: 5px;
-    font-family: 'mySecondFont';
+    font-family: 'Galada';
     letter-spacing: 4px;
 }
 
@@ -134,7 +133,7 @@ body {
 
 .about p{
     font-size: 1em;
-    font-family: 'mySecondFont';
+    font-family: 'Galada';
     margin-block-start: 0px;
     margin-block-end: 0px;
     width: 80%;
@@ -184,7 +183,7 @@ main {
     color: rgb(223, 116, 74);
     text-transform: capitalize;
     font-size: 1rem;
-    font-family: 'mySecondFont';
+    font-family: 'Galada';
     letter-spacing: 6px;
     margin: 0;
     border-bottom: 3px solid white;
@@ -195,7 +194,7 @@ main {
 
 .ref {
     font-size: 20px;
-    font-family: 'mySecondFont';
+    font-family: 'Galada';
     margin-block-start: 0px;
     margin-block-end: 0px;
     width: 70%;
@@ -234,7 +233,7 @@ main {
     color: rgb(223, 116, 74);
     font-size: 20px;
     letter-spacing: 2px;
-    font-family: 'mySecondFont';
+    font-family: 'Galada';
 }
 
 #local {
@@ -292,10 +291,24 @@ footer {
 }
 
 .footer-copyright {
-    margin-block-end: 3px;
+    margin-block-end: 0px;
 }
 .footer-copy {
     margin-block-start: 0px;
+}
+
+.footer-copy a {
+    text-decoration: none;
+}
+
+.footer-copy a {
+    margin-block-start: 0px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-copy a:visited {
+    color: rgb(151, 216, 210);
 }
 
 .whatsfixed {
@@ -366,7 +379,6 @@ footer {
     }
 
     #local {
-        /* display: inline-block; */
         width: 70%;
     }
     
@@ -379,13 +391,11 @@ footer {
 
     #link a {
         display: block;
-        /* background-color: teal; */
         text-decoration: none;
         color: rgb(223, 116, 74);
         width: 240px;
         font-size: 20px;
         margin: auto;
-        
         transform: none;
     }
 
@@ -400,7 +410,7 @@ footer {
 @media screen and (max-width: 700px) {
     .card {
         float: none;
-        margin: auto;    
+        margin: auto;
         width: 80%;
         margin-bottom: 5px;
         box-sizing: border-box;
