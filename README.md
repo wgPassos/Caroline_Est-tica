@@ -1,4 +1,6 @@
-<img src="./img/logoPrincipal.png">
+<p align= "center">
+  <img src="./img/logoPrincipal.png" width= "150px">
+</p>
 
 
 # Clínica Caroline Ribeiro
