@@ -1,7 +1,4 @@
-<!-- <p align: center>
-    <a href="">
-    <img src=""></a>
-</p> -->
+<img src="./img/logoPrincipal.png">
 
 
 # Clínica Caroline Ribeiro
