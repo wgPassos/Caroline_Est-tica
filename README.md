@@ -11,7 +11,18 @@ Acesse o site: [Clique aqui](https://wgpassos.github.io/Caroline_Estetica/)
 
 ## Technology  
 * HTML5
-* CSS3
+* CSS3    
+  * Fontes externas:
+    * @import url
+  * text-transform
+  * text-shadow
+  * letter-spacing
+  * border-radius
+  * position: fixed
+  * tranform:
+    * scale
+    * translate
+  * pseudo-classe :hover 
 
 
 
