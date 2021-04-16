@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Galada&display=swap');
 
+html {
+    scroll-behavior:smooth !important;
+}
+
 body {
     font-family: 'Baloo 2' , arial, sans-serif;
     background-color: rgba(254, 220, 210, 0.5);
@@ -11,21 +15,6 @@ body {
     margin: 0;
     padding: 0;
 
-}
-
-@font-face {
-    font-family: myFirstFont;
-    src: url(/fonts/Girassol-Regular.ttf);
-}
-
-@font-face {
-    font-family: mySecondFont;
-    src: url(/fonts/Galada-Regular.ttf);
-}
-
-@font-face {
-    font-family: myThirdFont;
-    src: url(/fonts/Baloo2-Bold.ttf);
 }
 
 .hero {
@@ -317,7 +306,7 @@ footer {
     width: 80px;
 } 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .hero nav li:hover {
         transform: scale(1.1) translateY(20%);
         transition: 1s;
@@ -359,6 +348,10 @@ footer {
     .whats:hover {
         transform: scale(1.4) rotate(360deg);
         transition: 0.8s;
+    }
+
+    .card p {
+        padding: 20px 50px;
     }
 }
 
