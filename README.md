@@ -3,7 +3,7 @@
 </p>
 
 
-# Clínica Caroline Ribeiro 
+<h1 align= "center">Clínica Caroline Ribeiro</h1>
 ### Estética e Massoterapia 
 Acesse o site: [Clique aqui](https://wgpassos.github.io/Caroline_Estetica/)
 
