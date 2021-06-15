@@ -13,28 +13,26 @@
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="./img/estetica-favicon-32x32.png">
     <link rel="icon" type="image/png" href="./img/estetica-favicon-32x32.png" sizes="32x32">
-    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="shortcut icon" href="./img/estetica-favicon-32x32.png">
     <link rel="icon" href="/img/estetica-favicon-32x32.png" type="image/png" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c42c8cf5a6.js" crossorigin="anonymous"></script>
     <title>Estética Caroline - Estética e Massoterapia</title>
 </head>
 
 <body>
-    <header id="inicio" class="hero">
-        <nav>
-            <ul>
-                <li><a id="index-nav" href="#inicio">Início</a></li>
-                <li><a id="about-nav" href="#about">A Clínica</a></li>
-                <li><a id="services-nav" href="#servicos">Procedimentos</a></li>
-                <li><a id="contact-nav" href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-        <section class="hero-content">
-            <img src="./img/logoPrincipal.png" alt="Imagem da logo">
-            <h1>Caroline Ribeiro</h1>
-            <p>Estética e Massoterapia</p>
-        </section>
-    </header>
+    <section id="inicio" class="hero">
+        <header>
+            <img src="./img/logoPrincipal.png" alt="Logotipo da cliníca Caroline Ribeiro" class="logo-caroline">
+            <nav class="navbar">
+                    <a id="contact-nav" href="#contact">Contato</a>
+                    <a id="index-nav" href="#inicio">Início</a>
+                    <a id="about-nav" href="#about">A Clínica</a>
+                    <a id="services-nav" href="#servicos">Procedimentos</a>
+            </nav>
+            <div id="menu" class="fa fa-bars"></div>
+        </header>
+    </section>
 
     <section id="about" class="about">
         <h2 class="subtitle">A Clínica</h2>
@@ -92,13 +90,12 @@
                 <br><br>
                 <a href="https://veja.abril.com.br/saude/os-beneficios-fisicos-e-psicologicos-da-massagem/"
                     target="_blank">Olhe o estudo sobre massagem</a>
-            </small></p>
+            </small>
             <!-- </article> -->
         </article>
         <section class="whatsfixed">
-            <a
-                href="https://api.whatsapp.com/send?phone=5547988524311&text=Olá! Quero informações sobre procedimentos estéticos"><img
-                    class="whats" src="./img/whatsorigin.png" alt="Logotipo Whatsapp"></a>
+            <a href="https://api.whatsapp.com/send?phone=5547988524311&text=Olá! Quero informações sobre procedimentos estéticos"
+                target="_blank"><img class="whats" src="./img/whatsorigin.png" alt="Logotipo Whatsapp"></a>
         </section>
     </main>
 
@@ -129,6 +126,8 @@
         <p class="footer-copyright">Copyright &copy;2021</p>
         <p class="footer-copy"><a href="#inicio">Caroline Ribeiro - <small>Estética e Massoterapia</small></a></p>
     </footer>
+
+    <script src="script.js"></script>
 
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
