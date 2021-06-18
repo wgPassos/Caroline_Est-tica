@@ -92,6 +92,8 @@ header .navbar a {
     cursor: pointer;
     display: none;
     position: relative;
+    transition: .4s;
+
 }
 
 .subtitle {
@@ -394,13 +396,20 @@ footer {
     }
     header .navbar.nav-toggle {
         right: 0%;
+        transition: .3s;
+        background-color: rgba(254, 220, 210, .8);
         /* box-shadow: 100vh 0 100vh 0 rgba(0, 0, 0, 1); */
+    }
+    header.header-toggle {
+        background-color: rgba(254, 220, 210, .8);
+        transition: .3s;
     }
     header .navbar a {
         font-size: 1.5rem;
         display: block;
         margin: 1.2rem 0;
         text-align: center;
+        color: rgb(223, 116, 74);
     }
     .fa-times {
         transform: rotate(180deg);
