@@ -64,7 +64,8 @@ body {
 }
 
 header {
-    position: fixed;
+    /* position: fixed; */
+    height: 15vh;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -200,6 +201,29 @@ main {
     border-radius: 0 0 5px 5px;
     padding: 20px 40px;
     /* box-sizing: border-box; */
+}
+
+.paralax {
+    background-image: url(../img/javier-martinez-unsplash.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+
+    background-attachment: fixed;
+}
+.paralax-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    background-color: rgba(254, 220, 210, .4);
+    text-shadow: 2px 3px 5px rgb(223, 116, 74);
+}
+.paralax-container h1 {
+    /* color: white; */
+    font-size: 2.5rem;
+    font-family: "Galada";
 }
 
 .ref {
@@ -382,6 +406,11 @@ footer {
         position: relative;
         right: 50px;
     }
+    header {
+        position: fixed;
+        height: 8vh;
+    }
+
     header .navbar {
         position: absolute;
         top: 100%;
